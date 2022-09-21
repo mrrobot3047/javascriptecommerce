@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Amazon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="navv" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  id="navv"  href="cart.html">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  id="navv"  href="#">Pricing</a>
+                    </li>
+                 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div class="row">
+                <div class="card-con">
+                    <div class="card-items">
+                        <div class="row row-cols-2 row-cols-md-4 g-5" id="caert">
+                            <div class="col">
+                                <div data-id="1" class="cardd">
+                                    <img src="phone.png" class="card-img-top" alt="..."
+                                        style="width: 200px; height:200px;">
+
+                                    <div class="card-details">
+
+                                        <h5 class="productName">redmi note pro</h5>
+                                        <p class="productPrice">20000</p>
+                                        <span><button class="addToCart" style="background-color: rgb(55, 164, 253);"
+                                                type="button" data-product-id="1">AddTocart</button></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div data-id="2" class="cardd">
+                                    <img src="powerbank2.jpg" class="card-img-top" alt="..."
+                                        style="width: 200px; height:200px;">
+
+                                    <div class="card-details">
+
+                                        <h5 class="productName">redmi power bank</h5>
+                                        <p class="productPrice">1000</p>
+                                        <span><button class="addToCart" style="background-color: rgb(55, 164, 253);"
+                                                type="button" data-product-id="2">AddTocart</button></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div data-id="3" class="cardd">
+                                    <img src="speaker.png" class="card-img-top" alt="..."
+                                        style="width: 200px; height:200px;">
+
+                                    <div class="card-details">
+
+                                        <h5 class="productName">redmi speaker</h5>
+                                        <p class="productPrice">1500</p>
+                                        <span><button class="addToCart" style="background-color: rgb(55, 164, 253);"
+                                                type="button" data-product-id="3">AddTocart</button></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div data-id="4" class="cardd">
+                                    <img src="tv.png" class="card-img-top" alt="..."
+                                        style="width: 200px; height:200px;">
+
+                                    <div class="card-details">
+
+                                        <h5 class="productName">redmi TV</h5>
+                                        <p class="productPrice">15000</p>
+                                        <span><button class="addToCart" style="background-color: rgb(55, 164, 253);"
+                                                type="button" data-product-id="4">AddTocart</button></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div data-id="5" class="cardd">
+                                    <img src="earr.png" class="card-img-top" alt="..." style="width: 250px; height:200px;">
+                            
+                                    <div class="card-details">
+                            
+                                        <h5 class="productName">Earphone</h5>
+                                        <p class="productPrice">2000</p>
+                                        <span><button class="addToCart" style="background-color: rgb(55, 164, 253);" type="button"
+                                                data-product-id="5">AddTocart</button></span>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="col">
+                                <div data-id="6" class="cardd">
+                                    <img src="smartwatch.jpg" class="card-img-top" alt="..." style="width: 250px; height:200px;">
+                            
+                                    <div class="card-details">
+                            
+                                        <h5 class="productName">SmartWatch</h5>
+                                        <p class="productPrice">2000</p>
+                                        <span><button class="addToCart" style="background-color: rgb(55, 164, 253);" type="button"
+                                                data-product-id="6">AddTocart</button></span>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                                <div class="col">
+                                    <div data-id="7" class="cardd">
+                                        <img src="earbud.jpg" class="card-img-top" alt="..." style="width: 250px; height:200px;">
+                                
+                                        <div class="card-details">
+                                
+                                            <h5 class="productName">Earbuds</h5>
+                                            <p class="productPrice">2000</p>
+                                            <span><button class="addToCart" style="background-color: rgb(55, 164, 253);" type="button"
+                                                    data-product-id="7">AddTocart</button></span>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="col">
+                                    <div data-id="8" class="cardd">
+                                        <img src="tablet.jpg" class="card-img-top" alt="..." style="width: 250px; height:200px;">
+                                
+                                        <div class="card-details">
+                                
+                                            <h5 class="productName">Tablet</h5>
+                                            <p class="productPrice">20000</p>
+                                            <span><button class="addToCart" style="background-color: rgb(55, 164, 253);" type="button"
+                                                    data-product-id="8">AddTocart</button></span>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                        
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+    </div>
+
+    </div>
+ 
+
+    </div>
+    <script src="script 2.js"></script>
+    <script src="carrt.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+#all{
+    padding: 5px;
+    padding-right: 200px;
+}
+.col-md-1 {
+    height: 900px;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-top: 20px;
+    border-width: 30px;
+    border: 2px solid rgb(242, 244, 245);
+    border-radius: 5px;
+}
+.addToCart{
+    background-color: rgb(25, 134, 236);
+    padding: 5px;
+    color: rgb(242, 246, 250);
+    border: none;
+    border-radius: 5px;
+}
+.th2 {
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.th3 {
+    margin-top: 40px;
+    margin-left: 420px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+#th1{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.th2 h6{
+    font-size: 20px;
+}
+.th3 h6{
+    font-size: 20px;
+}
+.th1 h6{
+    font-size: 20px;
+}
+#itemcart{
+    font-size: 25px;
+    margin-left: 200px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+.carte {
+    margin-top: 150px;
+    margin-left: 150px;
+    color: rgb(255, 255, 255);
+}
+.button-minus{
+    margin-left: 200px;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 46, 83);
+    background-color: rgb(255, 255, 255);;
+
+}
+.bill-price{
+    margin-left: 450px;
+    position: absolute;
+    margin-top: -80px;
+    color: rgb(255, 255, 255);
+}
+.imagee{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 15px;
+}
+.button-plus{
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 52, 121);
+    background-color: rgb(255, 255, 255);
+
+}
+.naame{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    position: absolute;
+
+}
+#caert{
+    margin-top: 30px;
+}
+
+.nav-item{
+    color: white;
+}
+#navv{
+    color: white;
+}
+.net-total{
+    margin-left: 230px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255); 
+}
+.grand-Total{
+    margin-left: 230px;
+    color: rgb(255, 255, 255);
+}
+.net-total p {
+    font-size: 20px;
+}
+.grand-Total p{
+    font-size: 20px;
+}
+#checkout{
+    margin-left: 120px;
+    width: 400px;
+}
